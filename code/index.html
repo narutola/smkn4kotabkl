@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SMK Negeri 4 Kota Bengkulu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #02457A;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background: #0367A6;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: url('https://source.unsplash.com/1200x400/?school,education') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .section {
+      margin-bottom: 50px;
+    }
+
+    .section h2 {
+      margin-bottom: 15px;
+      color: #02457A;
+      border-left: 5px solid #0367A6;
+      padding-left: 10px;
+    }
+
+    .visi-misi ul {
+      list-style: square;
+      margin-left: 20px;
+    }
+
+    .fasilitas {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .fasilitas div {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #02457A;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    footer p {
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2em;
+      }
+
+      nav ul {
+        flex-direction: column;
+      }
+
+      nav ul li {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="images smkn.png" alt="logo SMKN4 kota bengkulu">
+    <h1>SMK Negeri 4 Kota Bengkulu</h1>
+    <p>Unggul, Kompeten, dan Siap Kerja</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#profil">Profil</a></li>
+      <li><a href="#about">about</a></li>
+      <li><a href="#contact">contact</a></li>
+      <li><a href="#gallery">gallery</a></li>
+      <li><a href="#news">news</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>Selamat Datang di SMK Negeri 4 Kota BKL</h1>
+
+    
+  </section>
+
+  <div class="container">
+    <section class="section" id="profil">
+      <h2>Profil Sekolah</h2>
+      <p>SMK Negeri 4 Kota Bengkulu adalah sekolah kejuruan yang berkomitmen mencetak lulusan yang unggul, kompeten, dan siap bersaing di dunia kerja maupun industri. Dengan berbagai jurusan unggulan dan dukungan tenaga pengajar profesional, SMK Negeri 4 menjadi pilihan tepat untuk pendidikan vokasi yang bermutu.</p>
+    </section>
+
+    <section class="about" id="about">
+      <h2>Visi & Misi</h2>
+      <h3>Visi:</h3>
+      <p>Menjadi SMK unggul dalam pendidikan vokasi yang berwawasan global dan berbasis teknologi.</p>
+      <h3>Misi:</h3>
+      <ul>
+        <li>Meningkatkan kualitas pembelajaran berbasis kompetensi.</li>
+        <li>Menjalin kerjasama dengan dunia industri dan usaha.</li>
+        <li>Mengembangkan karakter siswa yang mandiri, disiplin, dan profesional.</li>
+        <li>Memberikan pelatihan teknologi terkini sesuai perkembangan zaman.</li>
+      </ul>
+    </section>
+    
+    <h2>program keahlian</h2>
+    <ul>
+      <li>otomotif</li>
+      <li>rekayasa perangkat lunak</li>
+      <li>pelayaran</li>
+      <li>aphpi</li>
+    </ul>
+    <h2>gallery</h2>
+    <section class="gallery" id="gallery">
+      <img src="foto.png" alt="gallery">
+      <img src="fotoo.png" alt="gallery">
+      <img src="img.png" alt="gallery">
+   
+
+    <section class="section" id="news">
+      <h2>Fasilitas Sekolah</h2>
+      <div class="fasilitas">
+        <div>
+          <h4>Ruang Kelas Multimedia</h4>
+          <p>Dilengkapi dengan proyektor dan jaringan internet.</p>
+        </div>
+        <div>
+          <h4>Laboratorium Komputer</h4>
+          <p>Fasilitas komputer lengkap dan up-to-date.</p>
+        </div>
+        <div>
+          <h4>Perpustakaan Digital</h4>
+          <p>Akses ribuan buku dan jurnal online.</p>
+        </div>
+        <div>
+          <h4>Bengkel Otomotif</h4>
+          <p>Praktek langsung dengan kendaraan dan alat industri.</p>
+        </div>
+        <div>
+          <h4>Lapangan Olahraga</h4>
+          <p>Fasilitas futsal, basket, dan voli.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+ 
+  <footer id="contact">
+    <p>&copy; 2025 SMK Negeri 4 Kota Bengkulu</p>
+    <p>Jl. Pendidikan No. 12, Kota Bengkulu | Telp: (0736) 123456 | Email: info@smkn4bkl.sch.id</p>
+    <p>Follow kami: 
+      <a href="#" style="color:#f0f0f0;">Instagram</a> | 
+      <a href="#" style="color:#f0f0f0;">Facebook</a>
+    </p>
+  </footer>
+
+</body>
+</html>
